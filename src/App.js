@@ -61,6 +61,7 @@ function App() {
   if (initializing) return 'Loading...'
   return (
     <div>
+      <h1 className='text-red-500'>Yeeeeee</h1>
      { user ? (
        <>
        <Button onClick={signOut}>Sign Out</Button>
